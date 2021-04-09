@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C743C68260CF39600FF98F4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C67260CF39600FF98F4 /* Tests_iOS.swift */; };
+		3C743C73260CF39600FF98F4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C72260CF39600FF98F4 /* Tests_macOS.swift */; };
+		3C743C75260CF39600FF98F4 /* Reinder_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C4C260CF39400FF98F4 /* Reinder_BookApp.swift */; };
+		3C743C76260CF39600FF98F4 /* Reinder_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C4C260CF39400FF98F4 /* Reinder_BookApp.swift */; };
+		3C743C77260CF39600FF98F4 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C4D260CF39400FF98F4 /* BookList.swift */; };
+		3C743C78260CF39600FF98F4 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C4D260CF39400FF98F4 /* BookList.swift */; };
+		3C743C79260CF39600FF98F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C743C4E260CF39600FF98F4 /* Assets.xcassets */; };
+		3C743C7A260CF39600FF98F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C743C4E260CF39600FF98F4 /* Assets.xcassets */; };
+		3C743C8A260CF3D300FF98F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C743C89260CF3D300FF98F4 /* README.md */; };
+		3C743C8B260CF3D300FF98F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C743C89260CF3D300FF98F4 /* README.md */; };
+		3C743C90260CF7CF00FF98F4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C8F260CF7CF00FF98F4 /* Book.swift */; };
+		3C743C91260CF7CF00FF98F4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C8F260CF7CF00FF98F4 /* Book.swift */; };
+		3C743C932612134300FF98F4 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C922612134300FF98F4 /* BooksViewModel.swift */; };
+		3C743C942612134300FF98F4 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C743C922612134300FF98F4 /* BooksViewModel.swift */; };
+		3CFAC9DC261734FF009CC833 /* BookEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAC9DB261734FF009CC833 /* BookEdit.swift */; };
+		3CFAC9DD261734FF009CC833 /* BookEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAC9DB261734FF009CC833 /* BookEdit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C743C64260CF39600FF98F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C743C47260CF39400FF98F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C743C52260CF39600FF98F4;
+			remoteInfo = "Reinder_Book (iOS)";
+		};
+		3C743C6F260CF39600FF98F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C743C47260CF39400FF98F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C743C5A260CF39600FF98F4;
+			remoteInfo = "Reinder_Book (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C743C4C260CF39400FF98F4 /* Reinder_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reinder_BookApp.swift; sourceTree = "<group>"; };
+		3C743C4D260CF39400FF98F4 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		3C743C4E260CF39600FF98F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C743C53260CF39600FF98F4 /* Reinder_Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reinder_Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C743C56260CF39600FF98F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C743C5B260CF39600FF98F4 /* Reinder_Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reinder_Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C743C5D260CF39600FF98F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C743C5E260CF39600FF98F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3C743C63260CF39600FF98F4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C743C67260CF39600FF98F4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3C743C69260CF39600FF98F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C743C6E260CF39600FF98F4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C743C72260CF39600FF98F4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		3C743C74260CF39600FF98F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C743C89260CF3D300FF98F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3C743C8F260CF7CF00FF98F4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3C743C922612134300FF98F4 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		3CFAC9DB261734FF009CC833 /* BookEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEdit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C743C50260CF39600FF98F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C58260CF39600FF98F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C60260CF39600FF98F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C6B260CF39600FF98F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C743C46260CF39400FF98F4 = {
+			isa = PBXGroup;
+			children = (
+				3C743C4B260CF39400FF98F4 /* Shared */,
+				3C743C55260CF39600FF98F4 /* iOS */,
+				3C743C5C260CF39600FF98F4 /* macOS */,
+				3C743C66260CF39600FF98F4 /* Tests iOS */,
+				3C743C71260CF39600FF98F4 /* Tests macOS */,
+				3C743C54260CF39600FF98F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C743C4B260CF39400FF98F4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C89260CF3D300FF98F4 /* README.md */,
+				3C743C4C260CF39400FF98F4 /* Reinder_BookApp.swift */,
+				3C743C4D260CF39400FF98F4 /* BookList.swift */,
+				3C743C4E260CF39600FF98F4 /* Assets.xcassets */,
+				3C743C8F260CF7CF00FF98F4 /* Book.swift */,
+				3C743C922612134300FF98F4 /* BooksViewModel.swift */,
+				3CFAC9DB261734FF009CC833 /* BookEdit.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3C743C54260CF39600FF98F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C53260CF39600FF98F4 /* Reinder_Book.app */,
+				3C743C5B260CF39600FF98F4 /* Reinder_Book.app */,
+				3C743C63260CF39600FF98F4 /* Tests iOS.xctest */,
+				3C743C6E260CF39600FF98F4 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C743C55260CF39600FF98F4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C56260CF39600FF98F4 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3C743C5C260CF39600FF98F4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C5D260CF39600FF98F4 /* Info.plist */,
+				3C743C5E260CF39600FF98F4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3C743C66260CF39600FF98F4 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C67260CF39600FF98F4 /* Tests_iOS.swift */,
+				3C743C69260CF39600FF98F4 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		3C743C71260CF39600FF98F4 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C743C72260CF39600FF98F4 /* Tests_macOS.swift */,
+				3C743C74260CF39600FF98F4 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C743C52260CF39600FF98F4 /* Reinder_Book (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C743C7D260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Reinder_Book (iOS)" */;
+			buildPhases = (
+				3C743C4F260CF39600FF98F4 /* Sources */,
+				3C743C50260CF39600FF98F4 /* Frameworks */,
+				3C743C51260CF39600FF98F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reinder_Book (iOS)";
+			productName = "Reinder_Book (iOS)";
+			productReference = 3C743C53260CF39600FF98F4 /* Reinder_Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C743C5A260CF39600FF98F4 /* Reinder_Book (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C743C80260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Reinder_Book (macOS)" */;
+			buildPhases = (
+				3C743C57260CF39600FF98F4 /* Sources */,
+				3C743C58260CF39600FF98F4 /* Frameworks */,
+				3C743C59260CF39600FF98F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reinder_Book (macOS)";
+			productName = "Reinder_Book (macOS)";
+			productReference = 3C743C5B260CF39600FF98F4 /* Reinder_Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C743C62260CF39600FF98F4 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C743C83260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3C743C5F260CF39600FF98F4 /* Sources */,
+				3C743C60260CF39600FF98F4 /* Frameworks */,
+				3C743C61260CF39600FF98F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C743C65260CF39600FF98F4 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3C743C63260CF39600FF98F4 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C743C6D260CF39600FF98F4 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C743C86260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				3C743C6A260CF39600FF98F4 /* Sources */,
+				3C743C6B260CF39600FF98F4 /* Frameworks */,
+				3C743C6C260CF39600FF98F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C743C70260CF39600FF98F4 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 3C743C6E260CF39600FF98F4 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C743C47260CF39400FF98F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3C743C52260CF39600FF98F4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3C743C5A260CF39600FF98F4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3C743C62260CF39600FF98F4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3C743C52260CF39600FF98F4;
+					};
+					3C743C6D260CF39600FF98F4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3C743C5A260CF39600FF98F4;
+					};
+				};
+			};
+			buildConfigurationList = 3C743C4A260CF39400FF98F4 /* Build configuration list for PBXProject "Reinder_Book" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C743C46260CF39400FF98F4;
+			productRefGroup = 3C743C54260CF39600FF98F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C743C52260CF39600FF98F4 /* Reinder_Book (iOS) */,
+				3C743C5A260CF39600FF98F4 /* Reinder_Book (macOS) */,
+				3C743C62260CF39600FF98F4 /* Tests iOS */,
+				3C743C6D260CF39600FF98F4 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C743C51260CF39600FF98F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C8A260CF3D300FF98F4 /* README.md in Resources */,
+				3C743C79260CF39600FF98F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C59260CF39600FF98F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C8B260CF3D300FF98F4 /* README.md in Resources */,
+				3C743C7A260CF39600FF98F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C61260CF39600FF98F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C6C260CF39600FF98F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C743C4F260CF39600FF98F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C77260CF39600FF98F4 /* BookList.swift in Sources */,
+				3C743C932612134300FF98F4 /* BooksViewModel.swift in Sources */,
+				3C743C75260CF39600FF98F4 /* Reinder_BookApp.swift in Sources */,
+				3C743C90260CF7CF00FF98F4 /* Book.swift in Sources */,
+				3CFAC9DC261734FF009CC833 /* BookEdit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C57260CF39600FF98F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C78260CF39600FF98F4 /* BookList.swift in Sources */,
+				3C743C942612134300FF98F4 /* BooksViewModel.swift in Sources */,
+				3C743C76260CF39600FF98F4 /* Reinder_BookApp.swift in Sources */,
+				3C743C91260CF7CF00FF98F4 /* Book.swift in Sources */,
+				3CFAC9DD261734FF009CC833 /* BookEdit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C5F260CF39600FF98F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C68260CF39600FF98F4 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C743C6A260CF39600FF98F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C743C73260CF39600FF98F4 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C743C65260CF39600FF98F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C743C52260CF39600FF98F4 /* Reinder_Book (iOS) */;
+			targetProxy = 3C743C64260CF39600FF98F4 /* PBXContainerItemProxy */;
+		};
+		3C743C70260CF39600FF98F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C743C5A260CF39600FF98F4 /* Reinder_Book (macOS) */;
+			targetProxy = 3C743C6F260CF39600FF98F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C743C7B260CF39600FF98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C743C7C260CF39600FF98F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C743C7E260CF39600FF98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Reinder-Book";
+				PRODUCT_NAME = Reinder_Book;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C743C7F260CF39600FF98F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Reinder-Book";
+				PRODUCT_NAME = Reinder_Book;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C743C81260CF39600FF98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Reinder-Book";
+				PRODUCT_NAME = Reinder_Book;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C743C82260CF39600FF98F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Reinder-Book";
+				PRODUCT_NAME = Reinder_Book;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C743C84260CF39600FF98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reinder_Book (iOS)";
+			};
+			name = Debug;
+		};
+		3C743C85260CF39600FF98F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reinder_Book (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C743C87260CF39600FF98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Reinder_Book (macOS)";
+			};
+			name = Debug;
+		};
+		3C743C88260CF39600FF98F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dandylion.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Reinder_Book (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C743C4A260CF39400FF98F4 /* Build configuration list for PBXProject "Reinder_Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C743C7B260CF39600FF98F4 /* Debug */,
+				3C743C7C260CF39600FF98F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C743C7D260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Reinder_Book (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C743C7E260CF39600FF98F4 /* Debug */,
+				3C743C7F260CF39600FF98F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C743C80260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Reinder_Book (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C743C81260CF39600FF98F4 /* Debug */,
+				3C743C82260CF39600FF98F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C743C83260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C743C84260CF39600FF98F4 /* Debug */,
+				3C743C85260CF39600FF98F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C743C86260CF39600FF98F4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C743C87260CF39600FF98F4 /* Debug */,
+				3C743C88260CF39600FF98F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C743C47260CF39400FF98F4 /* Project object */;
+}
